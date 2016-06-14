@@ -98,4 +98,6 @@ Type: `String`
 The url of your components
 
 ---
-MIT
+[MIT](https://opensource.org/licenses/MIT)
+
+Copyright © 2016 Jrain Lau
