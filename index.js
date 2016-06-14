@@ -11,7 +11,7 @@ module.exports = function (componentsUrl) {
 		}
 
 		if (file.isStream()) {
-			cb(new gutil.PluginError('gulp-import', 'Streaming not supported'))
+			cb(new gutil.PluginError('gulp-html-import', 'Streaming not supported'))
 			return
 		}
 

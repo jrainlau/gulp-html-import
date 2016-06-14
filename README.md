@@ -16,6 +16,7 @@ gulp.task('import', function () {
         .pipe(gulp.dest('dist')); 
 })
 ```
+
 ## Example
 Here is the files tree:
 ```
@@ -49,6 +50,11 @@ Html files:
 </body>
 </html>
 ```
+In your `index.html`, you should use
+```
+@import "XXX.html"
+```
+to import your components.
 ```
 <!-- header.html -->
 
@@ -92,6 +98,4 @@ Type: `String`
 The url of your components
 
 ---
-[MIT](https://opensource.org/licenses/MIT)
-
-Copyright © 2016 Jrain Lau
+MIT
