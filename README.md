@@ -12,7 +12,7 @@ var htmlImport = require('gulp-html-import');
 
 gulp.task('import', function () {
     gulp.src('./demo/index.html')
-        .pipe(gulpImport('./demo/components/'))
+        .pipe(htmlImport('./demo/components/'))
         .pipe(gulp.dest('dist')); 
 })
 ```
